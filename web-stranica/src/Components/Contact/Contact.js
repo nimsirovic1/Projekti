@@ -1,9 +1,10 @@
 import React from "react";
 
+
 class Contact extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main-div">
         Heej, u Contact formi siii
       </div>
     );
