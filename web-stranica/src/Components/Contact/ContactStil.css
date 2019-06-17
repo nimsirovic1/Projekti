@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+#kontakt {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
+    width: 60%;
+    height: 80%;
+}
+
+#dugmic2 {
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    background-color: rgba(102, 181, 233, 0.123);
+    border-color: #839496;
+    border-radius: 10px;
+    color: white;
+    resize: vertical;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.form-control:focus {
+    background-color:  rgba(102, 181, 233, 0.438);
+    border-color: #839496;
+}
+
+.labele {
+    display: inline-block;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+   
+}
+
+
+
+textarea, input, .actual-edit-overlay {
+    -webkit-text-fill-color: rgb(224, 223, 223) !important;
+    font-style: italic;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75 {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

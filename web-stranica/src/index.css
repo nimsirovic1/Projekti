@@ -1,16 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-   /* background-image: url("pozadina2.png");
-    background-size: cover;*/    
+    background: url(pozadina4.jpg) no-repeat center fixed; 
+    background-size: cover;
     background-color: #1d7671; 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
   }
   
+  
+
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
@@ -33,22 +36,29 @@ body {
     text-decoration: none;
     color: white;
   }
+  
+
 
   #footer {
     position: absolute;
     left:0;
     bottom:0;
     right:0;
-    background-color: #1d7671; 
+   
     color: white;
     height: 4%;
     text-align: center;
     padding-bottom: 2%;
   }
 
-  .fa-linkedin {
+  .fa-linkedin, .fa-github{
     background: rgba(0, 0, 0, 0);
-    color:black;
+    color:white;
     float: left;
     margin-left: 1%;
   }
+
+  
+
+
+
