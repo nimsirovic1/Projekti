@@ -1,9 +1,4 @@
-# Projekti 
+# Website
 ## Nejra Imširović
 
-Na ovom repozitoriju se mogu pronaći projekti raspoređeni po različitim folderima na sljedeći način:
-- HTML5 + CSS3 + JavaScript + Node.js
-- C# + ASP.NET
-- Blender + Unity
-- C# programi
-- React.js + Node.js
+In this repository you can find my personal project. Currently, I'm making my own website using React and Node.js. All work I've done until know is on 'web-stranica' branch. 
